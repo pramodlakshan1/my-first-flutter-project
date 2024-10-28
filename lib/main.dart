@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_simple_note/notepad.dart';
 import 'dashbord.dart';
 
 void main() {
@@ -16,6 +17,7 @@ class MyApp extends StatelessWidget {
         initialRoute: '/dashbord',
         routes: {
           '/dashbord': (context) => const Dashboard(),
+          // '/notepad': (context)=> const Notepad(),
         }
     );
   }
